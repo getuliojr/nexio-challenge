@@ -1,20 +1,45 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+Nexio Challenge
+
+Scénario: Un client vous demande de créer un prototype de produit pour démontrer ce qui est possible au point de vue fonctionnel. Comme il ne connaît rien à la programmation, il va faire appel à un architecte-consultant qui est connu comme étant strict quand il s’agit d’évaluer la qualité logicielle.
+
+L’architecte a établi une liste de requis pour votre prototype:
+Produire un API REST qui permet de:
+•	Afficher un catalogue de produits
+•	Afficher le détail d’un produit
+•	Ajouter un produit au panier
+•	Enlever un produit du panier
+•	Afficher le contenu du panier
+
+L’architecte mentionne qu’il serait bien si le prototype pouvait aussi inclure un UI en WPF (bonus). 
+
+Contraintes:
+•	Utiliser une base de données fichier ou NoSQL tel que CosmosDB
+•	Ajoutez un mécanisme pour offrir des promotions. Il y aura deux types de promotions possible au départ (la nature de ces promotions est laissé à votre discrétion), mais un nouveau type de promotion devrait pouvoir être ajoutée simplement en créant une nouvelle classe dans le code.
+•	N’utilisez pas de framework tel que Unity. Ceci ne devrait pas être considéré comme allant à l’encontre des critères d’évaluation.
+
+Évaluation
+Vous serez évalué sur les points suivants:
+•	Connaissance générale du contexte web et du framework .Net
+•	Architecture et utilisation de patrons de conception
+•	Qualité du code
+o	Test unitaires / Intégration
+o	Métriques du code (couplage bas, complexité cyclomatique)
+o	Application des principes SOLID
+o	Code commenté et auto-documenté
+•	Respect de l’énoncé
+
+Pour la remise:
+•	Important le faire dans un délai raisonnable. 
+•	Vous avez droit à l’internet pour référence bien sûr, mais toute copie d’un tutoriel sera rapidement détecté et vous éliminera du processus.
+•	Un lien à un repo Github suffit comme soumission.
+
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+If you download this code to run locally, have <b>MongoDB</b> installed and running on localhost on default ports.
 
 # Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Just run the tests using Visual Studio. 
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
-
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+# API Documentation
+Everything is documented using Swagger
